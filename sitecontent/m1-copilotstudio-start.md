@@ -5,6 +5,8 @@ nav_order: 3
 has_children: true
 ---
 
+![Copilot Studio 학습 배너](../image/banner.png)
+
 # 새로운 Copilot Studio
 
 ## 목표

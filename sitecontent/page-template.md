@@ -13,6 +13,8 @@ nav_exclude: true
 # grand_parent: "최상위 섹션 제목"
 ---
 
+![배너 설명](../image/banner.png)
+
 # 페이지 제목
 
 ## 목표

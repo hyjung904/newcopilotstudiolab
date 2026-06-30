@@ -5,11 +5,14 @@ nav_order: 1
 parent: 새로운 Copilot Studio
 ---
 
-# SKILL.md
+# SKILL.md 란? 
 
 ## 목표
 
-- 이 페이지에서 학습할 내용을 적는다.
+- 이 페이지에서 학습할 내용을 적는다. 
+
+![실습 화면](../image/1-1.png)
+
 
 ## 준비물
 
