@@ -2,9 +2,15 @@
 layout: default
 title: "페이지 제목"
 nav_order: 99
+# 템플릿 파일 자체를 메뉴에서 숨김. 복사본에서는 이 줄을 삭제하세요.
 nav_exclude: true
-parent: "상위 섹션 제목"
-grand_parent: "최상위 섹션 제목"
+
+# 상위(폴더 역할) 페이지로 쓸 때
+# has_children: true
+
+# 하위 페이지로 쓸 때
+# parent: "상위 섹션 제목"
+# grand_parent: "최상위 섹션 제목"
 ---
 
 # 페이지 제목
