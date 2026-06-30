@@ -15,3 +15,8 @@ nav_order: 1
 3. GitHub에 푸시하면 Pages 사이트가 자동으로 갱신됩니다.
 
 [시작 가이드로 이동](./getting-started)
+
+## 빠른 바로가기
+
+- [페이지 템플릿](./page-template)
+- [M3 계층 메뉴 예시](./m3-agent-start)
