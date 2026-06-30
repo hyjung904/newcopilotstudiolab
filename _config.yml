@@ -1,6 +1,9 @@
 title: 문과생을 위한 Copilot Studio
 description: 문과생도 따라하는 Copilot Studio 실습 가이드
-theme: just-the-docs
+remote_theme: just-the-docs/just-the-docs
+
+plugins:
+  - jekyll-remote-theme
 
 url: https://hyjung904.github.io
 baseurl: /newcopilotstudiolab
