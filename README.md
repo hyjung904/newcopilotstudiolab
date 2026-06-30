@@ -5,7 +5,8 @@
 ## 구성
 
 - `index.md`: 홈 화면
-- `getting-started.md`: 시작 가이드
+- `sitecontent/`: 문서 본문 페이지 모음
+- `sitecontent/getting-started.md`: 시작 가이드
 - `_config.yml`: 사이트 설정(테마: just-the-docs)
 
 ## 사용 방법

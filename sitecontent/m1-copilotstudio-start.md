@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 새로운 Copilot Studio
-nav_order: 2
+nav_order: 3
 has_children: true
 ---
 

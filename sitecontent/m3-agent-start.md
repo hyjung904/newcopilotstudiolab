@@ -1,7 +1,7 @@
 ---
 layout: default
 title: M3. 에이전트 만들기 시작
-nav_order: 40
+nav_order: 10
 has_children: true
 ---
 
