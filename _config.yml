@@ -1,0 +1,14 @@
+title: 문과생을 위한 Copilot Studio
+description: 문과생도 따라하는 Copilot Studio 실습 가이드
+theme: just-the-docs
+
+url: https://hyjung904.github.io
+baseurl: /newcopilotstudiolab
+
+aux_links:
+  GitHub Repo: https://github.com/hyjung904/newcopilotstudiolab
+
+nav_enabled: true
+search_enabled: true
+heading_anchors: true
+color_scheme: light
