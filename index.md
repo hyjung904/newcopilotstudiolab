@@ -19,4 +19,4 @@ nav_order: 1
 ## 빠른 바로가기
 
 - [페이지 템플릿](./sitecontent/page-template)
-- [M3 계층 메뉴 예시](./sitecontent/m3-agent-start)
+- [News Letter Agent](./sitecontent/m2-news-letter-agent-start)
