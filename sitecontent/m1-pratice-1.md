@@ -18,7 +18,7 @@ parent: 새로운 Copilot Studio
 - [Create skills for agents - Copilot Studio](https://learn.microsoft.com/en-us/microsoft-copilot-studio/agents-experience/skills-create)
 - [Agent Skills](https://agentskills.io/home)
 
-Skill은 Copilot Studio에서 에이전트가 특정 작업을 수행하도록 돕는 **지침의 집합체** 입니다. (Markdown 파일 형식) 에는 에이전트가 언제 어떤 일을 해야 하는지, 어떤 정보를 참고해야 하는지, 어떤 절차로 처리해야 하는지가 들어 있습니다. 그래서 Skill을 사용하면 에이전트가 정해진 목적에 맞게 더 일관되게 동작할 수 있습니다.
+Skill은 Copilot Studio에서 에이전트가 특정 작업을 수행하도록 돕는 **지침의 집합체** 입니다. (Markdown 파일 형식) Skill에는 에이전트가 언제 어떤 일을 해야 하는지, 어떤 정보를 참고해야 하는지, 어떤 절차로 처리해야 하는지가 들어 있습니다. 그래서 Skill을 사용하면 에이전트가 정해진 목적에 맞게 더 일관되게 동작할 수 있습니다.
 
 ## SKILL.md 읽어보기 
 
