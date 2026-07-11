@@ -1,6 +1,6 @@
 ---
 layout: default
-title: M3. 에이전트 만들기 시작
+title: News Letter Agent
 nav_order: 10
 has_children: true
 ---

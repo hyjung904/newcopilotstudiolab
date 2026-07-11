@@ -1,11 +1,11 @@
 ---
 layout: default
-title: 실습 2 - 파일 업로드 및 테스트
+title: 실습 2 - Skill 작성하기
 nav_order: 2
-parent: M3. 에이전트 만들기 시작
+parent: News Letter Agent
 ---
 
-# 실습 2 - 파일 업로드 및 테스트
+# 실습 2 - Skill 작성하기
 
 ## 목표
 
