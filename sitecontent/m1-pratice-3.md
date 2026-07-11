@@ -59,7 +59,6 @@ parent: 새로운 Copilot Studio
 - Skills 추가 (+) 버튼을 클릭합니다.
 
 <br>
-<br>
 
 ![Copilot Studio - Skill 작성 2](../image/mcs-2.png)
 - **Skill을 업로드** 하거나 **Skill을 직접 작성** 할 수 있습니다. 여기서는 직접 작성 (Create from blank) 를 선택합니다. 

@@ -2,6 +2,7 @@
 layout: default
 title: 시작 가이드
 nav_order: 2
+nav_exclude: true
 ---
 
 # 시작 가이드
