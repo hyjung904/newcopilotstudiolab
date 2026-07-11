@@ -1,6 +1,0 @@
-{% assign banner_src = include.src | default: page.banner %}
-{% if banner_src %}
-<p>
-  <img src="{{ banner_src | relative_url }}" alt="{{ include.alt | default: page.banner_alt | default: page.title }}" style="width:100%;height:auto;border-radius:8px;margin:0 0 16px 0;display:block;" />
-</p>
-{% endif %}
