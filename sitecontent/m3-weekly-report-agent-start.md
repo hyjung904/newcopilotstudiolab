@@ -137,4 +137,4 @@ description: |-
 
 ## SKILL.md 다운로드 
 
-[Weekly Report Agent SKILL.md]({{ '/weeklyreport_downloads/SKILL.md' | relative_url }}) 
+[Weekly Report Agent SKILL.md](https://github.com/hyjung904/newcopilotstudiolab/raw/main/weeklyreport_downloads/SKILL.md)
