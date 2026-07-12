@@ -1,16 +1,4 @@
 ---
-layout: default
-title: Weekly Report Agent
-nav_order: 20
-has_children: true
----
-
-# Weekly Report Agent - 주간업무 보고 에이전트 
-
-## SKILL.md 작성
-
-```markdown
----
 name: past-weekly-report
 description: |-
   지난 한 주간의 Teams 미팅 및 이메일 내용을 `Work IQ Calendar`, `Work IQ Mail (Preview)`, `Work IQ Teams (Preview)` 를 통해 가져오고 해당 데이터를 바탕으로 한국어 주간업무 일지를 작성한다.
@@ -133,8 +121,3 @@ description: |-
 ### 4. 확인 필요
 - 업무상 영향이 있는 미확인 사항만 간단히 정리한다.
 - 단순 수집 실패 로그는 쓰지 않는다.
-```
-
-## SKILL.md 다운로드 
-
-[Weekly Report Agent SKILL.md]({{ '/weeklyreport_downloads/SKILL.md' | relative_url }}) 
