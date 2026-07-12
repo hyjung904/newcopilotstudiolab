@@ -114,6 +114,9 @@ HTML 생성 시 반드시 다음 규칙을 준수하여 Outlook 호환성을 보
 - JSON 검증 실패(링크 누락/개수 불일치) 시 Step 1로 돌아갑니다.
 
 ```
+## SKILL.md 다운로드 
+
+[SKILL.md 다운로드]({{ '/practice1_downloads/SKILL.md' | relative_url }})
 
 ## SKILL.zip 다운로드
 
