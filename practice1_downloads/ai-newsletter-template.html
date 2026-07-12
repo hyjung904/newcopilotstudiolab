@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>{{Title}}</title>
+    <style>
+        body {
+            margin: 0;
+            background: #f3f6fb;
+            font-family: Segoe UI, Arial, sans-serif
+        }
+
+        .wrap {
+            max-width: 800px;
+            margin: auto;
+            background: white
+        }
+
+        .p {
+            padding: 24px 32px
+        }
+
+        .news {
+            border-bottom: 1px solid #e5e7eb;
+            padding: 18px 0
+        }
+
+        .cat {
+            font-size: 11px;
+            font-weight: 700;
+            color: #0f6cbd;
+            letter-spacing: 1px
+        }
+
+        .title {
+            font-size: 22px;
+            font-weight: 700;
+            color: #111827;
+            margin: 6px 0
+        }
+
+        .sum {
+            font-size: 14px;
+            line-height: 1.6;
+            color: #4b5563
+        }
+
+        .link {
+            font-size: 13px;
+            color: #0f6cbd;
+            text-decoration: none;
+            font-weight: 600
+        }
+
+        .hero {
+            background: linear-gradient(135deg, #0f6cbd, #115ea3);
+            padding: 40px 32px
+        }
+
+        .hero h1 {
+            color: #fff;
+            font-size: 40px;
+            margin: 0
+        }
+
+        .hero p {
+            color: #dbeafe
+        }
+
+        .highlight {
+            background: #f8fbff;
+            border: 1px solid #dbeafe;
+            border-radius: 12px;
+            padding: 20px;
+            margin-top: 20px
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="hero">
+            <div style="color:#cfe8ff;font-size:12px">{{NewsletterName}}</div>
+            <h1>{{Title}}</h1>
+            <p>{{Subtitle}} · {{PublishDate}}</p>
+        </div>
+        <div class="p">
+            <div class="highlight">
+                <div class="cat">TOP STORY</div>
+                <div class="title">{{TopNewsTitle}}</div>
+                <div class="sum">{{TopNewsSummary}}</div><a class="link" href="{{TopNewsLink}}">Read More →</a>
+            </div>
+            <h2 style="margin-top:32px">Today's News</h2>
+            <div class="news">
+                <div class="cat">{{NewsCategory1}}</div>
+                <div class="title">{{NewsTitle1}}</div>
+                <div class="sum">{{NewsSummary1}}</div><a class="link" href="{{NewsLink1}}">Read More →</a>
+            </div>
+            <div class="news">
+                <div class="cat">{{NewsCategory2}}</div>
+                <div class="title">{{NewsTitle2}}</div>
+                <div class="sum">{{NewsSummary2}}</div><a class="link" href="{{NewsLink2}}">Read More →</a>
+            </div>
+            <div class="news">
+                <div class="cat">{{NewsCategory3}}</div>
+                <div class="title">{{NewsTitle3}}</div>
+                <div class="sum">{{NewsSummary3}}</div><a class="link" href="{{NewsLink3}}">Read More →</a>
+            </div>
+            <div class="news">
+                <div class="cat">{{NewsCategory4}}</div>
+                <div class="title">{{NewsTitle4}}</div>
+                <div class="sum">{{NewsSummary4}}</div><a class="link" href="{{NewsLink4}}">Read More →</a>
+            </div>
+            <div class="news">
+                <div class="cat">{{NewsCategory5}}</div>
+                <div class="title">{{NewsTitle5}}</div>
+                <div class="sum">{{NewsSummary5}}</div><a class="link" href="{{NewsLink5}}">Read More →</a>
+            </div>
+            <div class="news">
+                <div class="cat">{{NewsCategory6}}</div>
+                <div class="title">{{NewsTitle6}}</div>
+                <div class="sum">{{NewsSummary6}}</div><a class="link" href="{{NewsLink6}}">Read More →</a>
+            </div>
+            <div class="news">
+                <div class="cat">{{NewsCategory7}}</div>
+                <div class="title">{{NewsTitle7}}</div>
+                <div class="sum">{{NewsSummary7}}</div><a class="link" href="{{NewsLink7}}">Read More →</a>
+            </div>
+            <div class="news">
+                <div class="cat">{{NewsCategory8}}</div>
+                <div class="title">{{NewsTitle8}}</div>
+                <div class="sum">{{NewsSummary8}}</div><a class="link" href="{{NewsLink8}}">Read More →</a>
+            </div>
+            <div class="news">
+                <div class="cat">{{NewsCategory9}}</div>
+                <div class="title">{{NewsTitle9}}</div>
+                <div class="sum">{{NewsSummary9}}</div><a class="link" href="{{NewsLink9}}">Read More →</a>
+            </div>
+            <div class="news">
+                <div class="cat">{{NewsCategory10}}</div>
+                <div class="title">{{NewsTitle10}}</div>
+                <div class="sum">{{NewsSummary10}}</div><a class="link" href="{{NewsLink10}}">Read More →</a>
+            </div>
+        </div>
+        <div style="background:#111827;color:#9ca3af;text-align:center;padding:30px">
+            <div style="color:white;font-weight:700">{{CompanyName}}</div>
+            <div>{{CompanyAddress}}</div>
+            <div>© {{CurrentYear}}</div>
+        </div>
+    </div>
+</body>
+
+</html>

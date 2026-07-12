@@ -5,8 +5,14 @@ nav_order: 10
 has_children: true
 ---
 
-# M3. 에이전트 만들기 시작
+# News Letter Agent 
 
-이 페이지는 실습 하위 페이지를 묶는 상위 섹션입니다.
+사용자가 요청한 키워드를 기반으로 이메일 뉴스레터 Draft를 생성하는 에이전트입니다.
 
-왼쪽 메뉴에서 하위 실습 페이지를 선택할 수 있습니다.
+![News Letter Agent-1](../image/emailagent-1.png)
+
+![News Letter Agent-2](../image/emailagent-2.png)
+
+![News Letter Agent-3](../image/emailagent-3.png)
+
+![News Letter Agent-4](../image/emailagent-4.png)
