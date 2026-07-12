@@ -15,3 +15,6 @@ nav_enabled: true
 search_enabled: true
 heading_anchors: true
 color_scheme: light
+
+exclude:
+  - practice1_downloads/SKILL.md
