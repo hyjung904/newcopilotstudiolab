@@ -1,0 +1,327 @@
+Received: from LV8PR18MB5709.namprd18.prod.outlook.com (2603:10b6:408:1e4::19)
+ by BY1PR18MB5875.namprd18.prod.outlook.com with HTTPS; Sat, 11 Jul 2026
+ 23:10:31 +0000
+Received: from SJ2P220CA0001.NAMP220.PROD.OUTLOOK.COM (2603:10b6:a03:5da::12)
+ by LV8PR18MB5709.namprd18.prod.outlook.com (2603:10b6:408:1e4::19) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.21.181.18; Sat, 11 Jul
+ 2026 23:10:28 +0000
+Received: from SJ5PEPF0000020A.namprd05.prod.outlook.com
+ (2603:10b6:a03:5da:cafe::90) by SJ2P220CA0001.outlook.office365.com
+ (2603:10b6:a03:5da::12) with Microsoft SMTP Server (version=TLS1_3,
+ cipher=TLS_AES_256_GCM_SHA384) id 15.21.202.18 via Frontend Transport; Sat,
+ 11 Jul 2026 23:10:27 +0000
+Authentication-Results: spf=pass (sender IP is 216.221.175.229)
+ smtp.mailfrom=atlassian-bounces.atlassian.net; dkim=pass (signature was
+ verified) header.d=atlassian.net;dkim=pass (signature was verified)
+ header.d=amazonses.com;dmarc=pass action=none
+ header.from=po.atlassian.net;compauth=pass reason=100
+Received-SPF: Pass (protection.outlook.com: domain of
+ atlassian-bounces.atlassian.net designates 216.221.175.229 as permitted
+ sender) receiver=protection.outlook.com; client-ip=216.221.175.229;
+ helo=g175-229.smtp-out.amazonses.com; pr=C
+Received: from g175-229.smtp-out.amazonses.com (216.221.175.229) by
+ SJ5PEPF0000020A.mail.protection.outlook.com (10.167.244.43) with Microsoft
+ SMTP Server (version=TLS1_3, cipher=TLS_AES_256_GCM_SHA384) id 15.21.202.18
+ via Frontend Transport; Sat, 11 Jul 2026 23:10:26 +0000
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=4ky7aje6ne7qadoytou2rbkyhgxy2qid; d=atlassian.net; t=1783811426;
+	i=@po.atlassian.net;
+	h=Content-Type:Date:From:Message-Id:Mime-Version:Subject:To;
+	bh=O7n/9g0G64oDc4KpszCDs8G9SKAgHTExJ1cBC/WrtWs=;
+	b=jlwujL1aVfJAETDVTbdQ6VNxxFyI53CwQdt75blD24hpuk5s4mWhNqbnMIsRH34/
+	O6RFOlxqpf4ClZa10/cnNDjuIrgXPk51Fq2H03A+fSdQcgftKgriR33dZzjBKjCFr0o
+	v/YnlmbaLjt9JWvzLqvI9JM4QMjNiiea9jtTwERjkO0d6KSSBHd7JSLZYwyidRGd9bo
+	4cyI0PHsMm8YoOsEkNpf3s8uCYzn7fnHt4Jc2yhW9HAlmTo0y/MlI3wKpNUiE91IkZL
+	ca4PteImOH7bMGSZmCcxjtnlqvtZPzzLgqwvAo49AEKFTJKB05gr3aOOPjqvwD8x+Sb
+	C3Es+TqORQ==
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=224i4yxa5dv7c2xz3womw6peuasteono; d=amazonses.com; t=1783811426;
+	h=Content-Type:Date:Feedback-Id:From:Message-Id:Mime-Version:Subject:To;
+	bh=O7n/9g0G64oDc4KpszCDs8G9SKAgHTExJ1cBC/WrtWs=;
+	b=BS8sBllWJoZbtbEyD+KpVCXDMY8nUd2JDGl2FfPVJ0VWBw44TUBGor49ZPQi7oUz
+	m6TBgoD5Df4EAs2uZ57HZPF2EIQsUdRR7esLKKq7w8uYA4SOEpgXS4SDhU4SvW6icO8
+	uZ2gqGUtIMH/nfyF6+kVzTxHufe5a/SefXJWqFwc=
+Content-Type: multipart/alternative;
+ boundary=enmime-885fd8ee-c6e0-434a-be89-3df39964aa30
+Date: Sat, 11 Jul 2026 23:10:25 +0000
+Feedback-Id: ip.2cf476c8:la..PO-commerce-pre-dunning-ccp:1.us-east-1.qR2QuL7RnaYmnRfmKmdGlkgzZ+MHWEm101rQenX9XjE=:AmazonSES
+From: Atlassian Confluence <noreply@po.atlassian.net>
+Message-ID: <0100019f53724629-4870434f-5a9d-4918-918a-681f9ecd3ec6-000000@email.amazonses.com>
+Subject: Add payment details to keep your subscription
+To: MOD Administrator <admin@m365cpi25158121.onmicrosoft.com>
+X-Atl-Po-Messageinstanceid: 030209dfcebed8f5a7c43ee2148082f1f6c27ea25a88d6d5b89d8d0a987d1107_prod-east
+X-Atl-Po-Team: ari:cloud:identity::team/165616fe-2ca0-4d96-a1ea-6598e66c5665
+X-Atl-Po-Triggerid: ari:cloud:post-office::trigger/commerce-pre-dunning-ccp/9499d253-1bfc-4868-bcb8-61e31868c9e3
+X-Atlassian-Mail-Message-Id: <424a1f55-62dd-4733-9471-7cfa8b093e0f@po.atlassian.net>
+X-Atlassian-Mail-Transaction-Id: 424a1f55-62dd-4733-9471-7cfa8b093e0f
+X-SES-Outgoing: 2026.07.11-216.221.175.229
+Return-Path: 0100019f53724629-4870434f-5a9d-4918-918a-681f9ecd3ec6-000000@atlassian-bounces.atlassian.net
+X-MS-Exchange-Organization-ExpirationStartTime: 11 Jul 2026 23:10:27.2558
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id: 7097fbe5-f193-4fc8-3cd0-08dedfa19863
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: d2cc0561-ba34-4e20-8c27-34619bd2db1d:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic: SJ5PEPF0000020A:EE_|LV8PR18MB5709:EE_|BY1PR18MB5875:EE_
+X-MS-Exchange-Organization-AuthSource: SJ5PEPF0000020A.namprd05.prod.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Office365-Filtering-Correlation-Id: 7097fbe5-f193-4fc8-3cd0-08dedfa19863
+X-MS-Exchange-Organization-SCL: 1
+X-Microsoft-Antispam: BCL:3;ARA:13230040|704162311799003|69100299015|1032899013|3109299003|3092899012|3072899012|5062899012|13012899012|12012899012|32142699015|13102899012|2092899012|7049299003|7149299003|5073199012|5063199012|4123199012|13003099007|8096899003|18002099003|16102099003|3613699012|19002099009|4133799003|2066899003|5063699009|56012099006|4113699003;
+X-Forefront-Antispam-Report: CIP:216.221.175.229;CTRY:US;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:g175-229.smtp-out.amazonses.com;PTR:g175-229.smtp-out.amazonses.com;CAT:NONE;SFS:(13230040)(704162311799003)(69100299015)(1032899013)(3109299003)(3092899012)(3072899012)(5062899012)(13012899012)(12012899012)(32142699015)(13102899012)(2092899012)(7049299003)(7149299003)(5073199012)(5063199012)(4123199012)(13003099007)(8096899003)(18002099003)(16102099003)(3613699012)(19002099009)(4133799003)(2066899003)(5063699009)(56012099006)(4113699003);DIR:INB;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 11 Jul 2026 23:10:26.7806
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 7097fbe5-f193-4fc8-3cd0-08dedfa19863
+X-MS-Exchange-CrossTenant-Id: d2cc0561-ba34-4e20-8c27-34619bd2db1d
+X-MS-Exchange-CrossTenant-AuthSource: SJ5PEPF0000020A.namprd05.prod.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: LV8PR18MB5709
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:04.2820275
+X-MS-Exchange-Processed-By-BccFoldering: 15.21.0181.017
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910005)(944490095)(944506478)(944626604)(4710204)(4713165)(4714117)(4999285)(920097)(930201)(20251009189)(140003);
+X-Microsoft-Antispam-Message-Info:
+	=?utf-8?B?bUk0WUFTdXBYTlhBN3h2em9uUnJucmRwK0RWOU4wNG1XK1JET3hPNU80eUE1?=
+ =?utf-8?B?TllkU1EvQkRmK0hCVmQvYVh1Mlo2R3JDZXF2WkhkbXZQUTJ5azBscGlQZ21l?=
+ =?utf-8?B?VUN2QmMwY1R0TkxOdTU5T3ZUL0lxQllBY2xRNkM4M2F6cTZOMXROQm9LTzN6?=
+ =?utf-8?B?WS9PaWprRkhJd0FOUjZlYWRicHNlelBoTFA1cktxZXhndmM4QkFDcDlwbTQv?=
+ =?utf-8?B?THhjNjF2a3ZITWlWMVlIZ0hoaGRwcFdsUkdqYmpwcWtzakp3VEJuQk12aHlV?=
+ =?utf-8?B?Zmx2WmpPUU1tVTBmLytEc0NWbFU2NFl5ckhRdHRrYzRQZEMvRTd5N3VaaEpQ?=
+ =?utf-8?B?UzVBaFZhQ1JqVGZzNlZwMHRRNGd6Y1R6TlE2ZDJOdDRjMklzRHNhbEhtak9t?=
+ =?utf-8?B?Tk1FYlpHWUE2d0pwS2FQTDg1TEtRR0FEcWxHUGt0dk80eHlJc2hFd09aMDQ1?=
+ =?utf-8?B?aW8vellhNmxYQzdtWXpLUHpqazFYRUxlRnNxWVJicWtwU2hiOGpTb2xpTUNo?=
+ =?utf-8?B?K3FjN01vdlR5Si8xQXFxaWIyUFRLR3ZTYUFOR2Vyd05UMEUzTFZ5VHFxMEs1?=
+ =?utf-8?B?UFVGdi9VM1RoaUNYUVZRcHJySURuRFVYU1dsMEpaVE1sUU1ZVFBsSVd1cTVM?=
+ =?utf-8?B?ZGYyUVpwaVBKVEp0czROQWFrQW1ranBDTlVtb0thOVo3U0hWT0lBSkJRMHg2?=
+ =?utf-8?B?USszMkFlRTNOcHFUaXpaYWtVZHgxaDJRN3lUQ1lTeCt5d2cwMmlsU2dQL01T?=
+ =?utf-8?B?bXhKYnJTbU9Hbm1vKzZ6akRpeVhSSzI2YU1hdHJHL1VDMFVhSmxxcFJsTXNE?=
+ =?utf-8?B?L3ZZcFh1aWxUZmgyblg3ZC9xUFQybkNURXRkaWsrRnRsZ05yUjdISlB0dit3?=
+ =?utf-8?B?dnhuaTRxNlJvajY3RkYxOXpobDlKRnZNUkJkcmtxNDdYa2hFMW5aYlkrRWdO?=
+ =?utf-8?B?MEl6QmhoRnlKeitVc0FoRkdDMHdjMzlZbkszaHRvYkdGcnZ0RVhNUHFucWxl?=
+ =?utf-8?B?K1BVckhUL2p4VDdmb0Y2ZVJRN1VvbllQRkMxMnpMSGRTcC9aZ3BRNVM4QW9O?=
+ =?utf-8?B?MVAvNWZCdE1ka013aVArUHZhZGRDbThxaGV5cWVtMmZoaEMzNmNUWGlOWXdQ?=
+ =?utf-8?B?emtzSkJnMVloNlExUkRGWCtWcEdQU0JCb0V1VWJpamFHNExwVzNTR21ucWxM?=
+ =?utf-8?B?dUJNc01ZRU1FYjNsVlVqL0FnemtXNzk5ZkNiVHBtYVMwejNwUmtLUmIzWEFH?=
+ =?utf-8?B?emRGVUpPWnlSS0lITmNHUmdDSFY4QTR1bjdCVzZnSG1wQkNqb1dPbENZL2pM?=
+ =?utf-8?B?N1Y5TGE1bzlVRFczYktCZUF6Y2xqc21OYU1aLzNrWFRnQVFPN0RuN0RNWVlB?=
+ =?utf-8?B?YVFXSlZOTzFYUzV6SEIwMWFBK2h6b3M5Zk1xNWVsNUFpc2dMQzBja3kxVTR4?=
+ =?utf-8?B?V1F0ckhFRnQwd0FmN3l2R2JWVjVuM25UUENxOU9JTzU0eUZyVHp4SnFNQjlm?=
+ =?utf-8?B?bnBPT1A1djJ4dDNoL08xczlZSHFxK0JMNDd6eGRxMXltbTRSUzJiTGpmVkg4?=
+ =?utf-8?B?N09iMCtvVTFMMGVQY3FtZGxiWnMrTVRiMzNEVWo2NXJoY2JoK1hKSENxRTBB?=
+ =?utf-8?B?bW12M1FUVloyNytkTkRWZzZzWGR6K3drWG04QnRmR3lSQVhZZi9JWHJ0d0F5?=
+ =?utf-8?B?K2RpUjhkZTNYZHU5M2RDTEp4MTAxQkZ3UFZpNWxwRXZwckJYRFZsRUNXL2hz?=
+ =?utf-8?B?OXhsTGc2Q21NUGFueHZ3Ni9EbVlGajhkd2NpYytjekErcElHTlllQ0UvUEg3?=
+ =?utf-8?B?bXluYVRrM2hsODduNGV2ZDVxR0pJN0l4VHk4M3hOeWlxTVBoYVdFT2FZYTNR?=
+ =?utf-8?B?WkNRampWUEpwQVdIUVBkRFNQN0JORnVSTEEvOGxNWUNnWTI4Y3h3bWZCN3VO?=
+ =?utf-8?B?WG5SeDBRL3N4bDNmTVVpdS9VUDJRYXkrTXQzblVKSFBiUVNuL0hjM3JlemlX?=
+ =?utf-8?B?SGMwWUNiQ3VPRkdsaTU5eU5CUUpzSWRlUHhjUTQwRU55V0NubGFpcFNrRm9O?=
+ =?utf-8?B?SS9pTkYrNWQ5Sm5QQ3J5UlA4SVFEOVY1d2tyM3NBM3dialJ6dFFBN2kxZWVD?=
+ =?utf-8?B?MVFadDNBckw5ak8xNnBESnFCalErMmRSWWlFUFFnOGlZZ1pncXJDMko2RnlY?=
+ =?utf-8?B?bEpZYitHUmVXclczMVJkSEFHWHA3WG9VV2pvWHB3MVdobDQ1bW1JOGMyTTBR?=
+ =?utf-8?B?SmJleGhCRnhHMTZWb1ErY1h0OGNNVFdMbmpPWEZjYVJEQTl5WmJzbGRLMmVO?=
+ =?utf-8?B?YkU3UVo1T3JBdlIrNWxJSmJJVG9INko4bXM1Ung4SFdwWExEQjFOcWRKa29G?=
+ =?utf-8?B?S21FaFJxOU9tcFp6alNLOW1MdGU5TjY0Q1Uzd0lQOHVSYVNFb3JSYnFZVnVO?=
+ =?utf-8?B?d1o0SzFZV1VwVWpsM3R5Njh1ZTlUQ1FtOERrVWNjLzR5eXFJQlpxOUNtUytk?=
+ =?utf-8?B?OHp6Y3VHaGhXa0hKNjlCSTFvYVZsS3hkQUN4WkpYRnptM0wyYW9abVJQaU8z?=
+ =?utf-8?B?K3AwOGR6TU84WWQrNVZEanFNMDU5eTArSHRmT05mVFE3bXByb2FlNFhMVGxh?=
+ =?utf-8?B?Um9EQW5hcndoOUFPbzlBMm9lSmpVVGJGR0pKdjlPN2lrdFp4MGFTNFIzUkxZ?=
+ =?utf-8?B?VHFBNGltUTdpZkpzVnRhWTkyMnBMaWFQT3NVblkySzc2d1FUa3graDlEOU5D?=
+ =?utf-8?B?QUhNbkFuZXI3YXF5WlFOOGpJMFJadXdVMVJGaVhkVkJSLzh4ak5lSE9TWHdW?=
+ =?utf-8?B?N1g0ck1GaFlxUWhPLzdkMWxtT0ZEbXBkSHFrUERreWJvZE9xOTZaeUtMZlFt?=
+ =?utf-8?B?VkswaEtyam9MM0Iwbmx2Vm03TCt5RDVaSjNHVGVSVitDMDVXVmxNV1NHMXIr?=
+ =?utf-8?B?c1B3SEhtVzRiVUZOVXJCZ0NiWlB4SHJEOUlkdlp0ejRDZ0MzYlVSamFVWVV5?=
+ =?utf-8?B?NTZ1VjE2ck1DbjBFRFl2UXhQdGZvMkQ4aTVCOHJ6Vk4rTUdKR0hOcFVtVGl5?=
+ =?utf-8?B?R3N2MVFpcVJQb3lUQnVMbHVLN3VoSnhvQWJ5bFlyeHFxdHlkUE9LamVtR3F3?=
+ =?utf-8?B?eExvT0ltbmVGTFRJSlZNVUJGZGs1R3NBOSs4U3UrckdVbTVkQWcreXhjZzEx?=
+ =?utf-8?B?ZTBieU9odE1ydGovT0hGTEJrVnM5V2VUd1FZL1VRRldRcytXc2I1UllGOFpS?=
+ =?utf-8?B?enZaNC9CcVE3SjkrdnRSS1NxeTA1WDJSNkF4KzQwdGt2RjRUNHY2QnMxbS91?=
+ =?utf-8?B?a2krQmhNZkdsbFkwQVZ6am1iUEZ6RnEzZFlhbmovdy9vZUg0MmJKSmJFMzE0?=
+ =?utf-8?Q?ShyA7X9/4/KQgsPFRY6BQ?=
+MIME-Version: 1.0
+
+--enmime-885fd8ee-c6e0-434a-be89-3df39964aa30
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset=utf-8
+
+Atlassian
+[https://commerce-cdn.prod.atl-paas.net/logos/id-summit/id-summit-email_log=
+o_360x80_NEW.png]http://www.atlassian.com
+
+
+ADD PAYMENT DETAILS TO KEEP YOUR SUBSCRIPTION
+
+
+
+platform
+[https://commerce-cdn.prod.atl-paas.net/illustration-library/Platform.png]
+
+Hi MOD,
+
+We couldn=E2=80=99t process payment for your subscription because we don=E2=
+=80=99t have your
+payment details on file. There=E2=80=99s still time to add an address and p=
+ayment method
+and keep your subscription active.
+
+ * Confluence Premium MONTHLY JPY COMMERCIAL CLOUD (E-44R-XK7-X5G-CXE) |
+   m365cpi25158121test.atlassian.net
+ * Atlassian Guard Standard MONTHLY JPY COMMERCIAL CLOUD (E-44R-XRR-MP6-83C=
+)
+
+Your total estimated bill is USD=C2=A05,430.00 (excludes tax)
+
+Add payment details
+[https://track.atlassian.com/tracking/09f2a7c6-e685-4e44-838a-a8b7d8436217?=
+m=3DeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0cmlnZ2VySWQiOiJhcmk6Y2xvdWQ6cG=
+9zdC1vZmZpY2U6OnRyaWdnZXIvY29tbWVyY2UtcHJlLWR1bm5pbmctY2NwLzk0OTlkMjUzLTFiZ=
+mMtNDg2OC1iY2I4LTYxZTMxODY4YzllMyIsIm1lc3NhZ2VUZW1wbGF0ZUlkIjoiY29tbWVyY2Ut=
+cHJlLWR1bm5pbmctY2NwIiwicmVjaXBpZW50Ijp7InR5cGUiOiJBY2NvdW50SWQiLCJ1c2VyQXJ=
+pIjoiYXJpOmNsb3VkOmlkZW50aXR5Ojp1c2VyLzcxMjAyMDo1YmQ3NzQzNC1lODBhLTQ2ZmItOG=
+E2Mi01YjczMWM1YzcxYmEifSwiZW50aXR5Ijp7fSwiaWF0IjoxNzgzODExNDI1fQ.JuwcWG9XVT=
+Z2imwJG9_5OgLHPOyDRooBOdbxpv_byLk&j=3D1]
+
+---------------------------------------------------------------------------=
+-----
+
+Please contact us
+[https://track.atlassian.com/tracking/6f8a5940-1ba5-48df-8c21-c5fe0f7086e1?=
+m=3DeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0cmlnZ2VySWQiOiJhcmk6Y2xvdWQ6cG=
+9zdC1vZmZpY2U6OnRyaWdnZXIvY29tbWVyY2UtcHJlLWR1bm5pbmctY2NwLzk0OTlkMjUzLTFiZ=
+mMtNDg2OC1iY2I4LTYxZTMxODY4YzllMyIsIm1lc3NhZ2VUZW1wbGF0ZUlkIjoiY29tbWVyY2Ut=
+cHJlLWR1bm5pbmctY2NwIiwicmVjaXBpZW50Ijp7InR5cGUiOiJBY2NvdW50SWQiLCJ1c2VyQXJ=
+pIjoiYXJpOmNsb3VkOmlkZW50aXR5Ojp1c2VyLzcxMjAyMDo1YmQ3NzQzNC1lODBhLTQ2ZmItOG=
+E2Mi01YjczMWM1YzcxYmEifSwiZW50aXR5Ijp7fSwiaWF0IjoxNzgzODExNDI1fQ.JuwcWG9XVT=
+Z2imwJG9_5OgLHPOyDRooBOdbxpv_byLk&j=3D1]
+with any questions, we're always happy to help.
+
+Thanks,
+The Atlassian team
+
+Privacy Policy =E2=80=A2
+[https://www.atlassian.com/legal/privacy-policy?utm_source=3D-email&utm_med=
+ium=3Demail&utm_campaign=3D]
+Contact us =E2=80=A2
+[https://www.atlassian.com/company/contact?utm_source=3D-email&utm_medium=
+=3Demail&utm_campaign=3D]
+Read our blog
+[https://www.atlassian.com/blog?utm_source=3D-email&utm_medium=3Demail&utm_=
+campaign=3D]
+
+Facebook
+[https://commerce-cdn.prod.atl-paas.net/social-media/Facebookx2.png]https:/=
+/www.facebook.com/Atlassian=C2=A0=C2=A0=C2=A0LinkedIn
+[https://commerce-cdn.prod.atl-paas.net/social-media/LinkedInx2.png]https:/=
+/www.linkedin.com/company/atlassian=C2=A0=C2=A0=C2=A0Twitter
+[https://commerce-cdn.prod.atl-paas.net/social-media/Twitterx2.png]https://=
+twitter.com/Atlassian
+
+Copyright 2026 Atlassian Pty Ltd. All rights reserved. We are located at
+341 George Street, Sydney, NSW, 2000, Australia
+
+Atlassian
+[https://commerce-cdn.prod.atl-paas.net/logos/id-summit/id-summit-email_log=
+o_360x80_NEW.png]http://www.atlassian.com?utm_source=3D-email&utm_medium=3D=
+email&utm_campaign=3D
+--enmime-885fd8ee-c6e0-434a-be89-3df39964aa30
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=utf-8
+
+<!DOCTYPE html><meta http-equiv=3D"Content-Type" content=3D"text/html; char=
+set=3Dutf-8"><div style=3D"display:none" hidden=3D""></div><div style=3D"ba=
+ckground-color:#fff;color:#172b4d;font-family:-apple-system, BlinkMacSystem=
+Font, Segoe UI, Roboto, Noto Sans, Oxygen, Ubuntu, Droid Sans, Helvetica Ne=
+ue, sans-serif;font-size:14px;font-style:normal;font-weight:400;line-height=
+:1.42857142857143;letter-spacing:-.005em;text-decoration-skip:ink;justify-c=
+ontent:center;align-items:center"><table cellpadding=3D"0" cellspacing=3D"0=
+" style=3D"width:100%;min-width:100%" class=3D"main table_shrink"><tbody><t=
+r><td><table style=3D"width:636px;margin:auto;text-align:center" cellpaddin=
+g=3D"0" cellspacing=3D"0" class=3D"table_shrink"><tbody><tr><td style=3D"ve=
+rtical-align:top;text-align:left" class=3D"message-body"><div><table style=
+=3D"width:100%;border:0;border-collapse:collapse" cellpadding=3D"0" cellspa=
+cing=3D"0" class=3D"table_shrink"><tbody><tr><td style=3D"padding-top:30px;=
+padding-bottom:10px;vertical-align:top;text-align:center"><a href=3D"http:/=
+/www.atlassian.com"><img src=3D"https://commerce-cdn.prod.atl-paas.net/logo=
+s/id-summit/id-summit-email_logo_360x80_NEW.png" height=3D"24" alt=3D"Atlas=
+sian"></a></td></tr></tbody></table></div><table style=3D"margin-left:auto;=
+margin-right:auto;width:500px"><tbody><tr><td><p style=3D"margin-top:16px">=
+</p><h1 style=3D"font-size:28px;font-style:normal;font-weight:bolder;letter=
+-spacing:-.01em;line-height:1.10344828;margin:auto;text-align:center">Add p=
+ayment details to keep your subscription</h1><p></p><p style=3D"text-align:=
+center"><img height=3D"190" src=3D"https://commerce-cdn.prod.atl-paas.net/i=
+llustration-library/Platform.png" alt=3D"platform"></p><p style=3D"margin-t=
+op:16px">Hi MOD,</p><p style=3D"margin-top:16px">We couldn=E2=80=99t proces=
+s payment for your subscription because we don=E2=80=99t have your payment =
+details on file. There=E2=80=99s still time to add an address and payment m=
+ethod and keep your subscription active.</p><ul><li style=3D"margin-bottom:=
+4px">Confluence Premium MONTHLY JPY COMMERCIAL CLOUD (E-44R-XK7-X5G-CXE) | =
+m365cpi25158121test.atlassian.net</li><li style=3D"margin-bottom:4px">Atlas=
+sian Guard Standard MONTHLY JPY COMMERCIAL CLOUD (E-44R-XRR-MP6-83C) </li><=
+/ul><p style=3D"margin-top:16px">Your total estimated bill is <strong>USD&n=
+bsp;5,430.00</strong> (excludes tax)</p><a href=3D"https://track.atlassian.=
+com/tracking/09f2a7c6-e685-4e44-838a-a8b7d8436217?m=3DeyJhbGciOiJIUzI1NiIsI=
+nR5cCI6IkpXVCJ9.eyJ0cmlnZ2VySWQiOiJhcmk6Y2xvdWQ6cG9zdC1vZmZpY2U6OnRyaWdnZXI=
+vY29tbWVyY2UtcHJlLWR1bm5pbmctY2NwLzk0OTlkMjUzLTFiZmMtNDg2OC1iY2I4LTYxZTMxOD=
+Y4YzllMyIsIm1lc3NhZ2VUZW1wbGF0ZUlkIjoiY29tbWVyY2UtcHJlLWR1bm5pbmctY2NwIiwic=
+mVjaXBpZW50Ijp7InR5cGUiOiJBY2NvdW50SWQiLCJ1c2VyQXJpIjoiYXJpOmNsb3VkOmlkZW50=
+aXR5Ojp1c2VyLzcxMjAyMDo1YmQ3NzQzNC1lODBhLTQ2ZmItOGE2Mi01YjczMWM1YzcxYmEifSw=
+iZW50aXR5Ijp7fSwiaWF0IjoxNzgzODExNDI1fQ.JuwcWG9XVTZ2imwJG9_5OgLHPOyDRooBOdb=
+xpv_byLk&amp;j=3D1" style=3D"text-decoration:none;align-items:baseline;box-=
+sizing:border-box;border-radius:3px;border-width:0;display:inline-flex;font=
+-style:normal;font-size:inherit;height:2.28571429em;line-height:2.28571429e=
+m;margin:0;outline:none;padding:0 8px;text-align:center;transition:backgrou=
+nd .1s ease-out, box-shadow .15s cubic-bezier(.47, .03, .49, 1.38);user-sel=
+ect:none;vertical-align:middle;white-space:nowrap;border:none;background:#0=
+052cc;color:#fff">Add payment details</a><hr role=3D"presentation" style=3D=
+"border:none;border-bottom:1px solid #444;margin:16px 0"><p style=3D"margin=
+-top:16px">Please <a href=3D"https://track.atlassian.com/tracking/6f8a5940-=
+1ba5-48df-8c21-c5fe0f7086e1?m=3DeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0cm=
+lnZ2VySWQiOiJhcmk6Y2xvdWQ6cG9zdC1vZmZpY2U6OnRyaWdnZXIvY29tbWVyY2UtcHJlLWR1b=
+m5pbmctY2NwLzk0OTlkMjUzLTFiZmMtNDg2OC1iY2I4LTYxZTMxODY4YzllMyIsIm1lc3NhZ2VU=
+ZW1wbGF0ZUlkIjoiY29tbWVyY2UtcHJlLWR1bm5pbmctY2NwIiwicmVjaXBpZW50Ijp7InR5cGU=
+iOiJBY2NvdW50SWQiLCJ1c2VyQXJpIjoiYXJpOmNsb3VkOmlkZW50aXR5Ojp1c2VyLzcxMjAyMD=
+o1YmQ3NzQzNC1lODBhLTQ2ZmItOGE2Mi01YjczMWM1YzcxYmEifSwiZW50aXR5Ijp7fSwiaWF0I=
+joxNzgzODExNDI1fQ.JuwcWG9XVTZ2imwJG9_5OgLHPOyDRooBOdbxpv_byLk&amp;j=3D1" st=
+yle=3D"text-decoration:none;border:none;background:transparent;color:#0052c=
+c">contact us</a> with any questions, we're always happy to help.</p><p sty=
+le=3D"margin-top:16px">Thanks,<br>The Atlassian team</p></td></tr></tbody><=
+/table><div style=3D"color:#707070;font-size:13px;line-height:19px;text-ali=
+gn:center;margin-top:32px"><p style=3D"margin-top:16px"><a style=3D"text-de=
+coration:none;color:#707070" href=3D"https://www.atlassian.com/legal/privac=
+y-policy?utm_source=3D-email&amp;utm_medium=3Demail&amp;utm_campaign=3D">Pr=
+ivacy Policy =E2=80=A2 </a><a style=3D"text-decoration:none;color:#707070" =
+href=3D"https://www.atlassian.com/company/contact?utm_source=3D-email&amp;u=
+tm_medium=3Demail&amp;utm_campaign=3D"> Contact us =E2=80=A2 </a> <a style=
+=3D"text-decoration:none;color:#707070" href=3D"https://www.atlassian.com/b=
+log?utm_source=3D-email&amp;utm_medium=3Demail&amp;utm_campaign=3D">Read ou=
+r blog</a></p><p style=3D"margin-top:16px"><a style=3D"text-decoration:none=
+;color:#707070" href=3D"https://www.facebook.com/Atlassian"><img src=3D"htt=
+ps://commerce-cdn.prod.atl-paas.net/social-media/Facebookx2.png" alt=3D"Fac=
+ebook" title=3D"Facebook" style=3D"line-height:0px;outline:0;padding:0;bord=
+er:0;height:25px;width:auto;vertical-align:middle"></a>&nbsp;&nbsp;&nbsp;<a=
+ style=3D"text-decoration:none;color:#707070" href=3D"https://www.linkedin.=
+com/company/atlassian"><img src=3D"https://commerce-cdn.prod.atl-paas.net/s=
+ocial-media/LinkedInx2.png" alt=3D"LinkedIn" title=3D"LinkedIn" style=3D"li=
+ne-height:0px;outline:0;padding:0;border:0;height:25px;width:auto;vertical-=
+align:middle"></a>&nbsp;&nbsp;&nbsp;<a style=3D"text-decoration:none;color:=
+#707070" href=3D"https://twitter.com/Atlassian"><img src=3D"https://commerc=
+e-cdn.prod.atl-paas.net/social-media/Twitterx2.png" alt=3D"Twitter" title=
+=3D"Twitter" style=3D"line-height:0px;outline:0;padding:0;border:0;height:2=
+5px;width:auto;vertical-align:middle"></a></p><p style=3D"margin-top:16px">=
+Copyright 2026 Atlassian Pty Ltd. All rights reserved. We are located at <b=
+r>341 George Street, Sydney, NSW, 2000, Australia</p><p style=3D"margin-top=
+:16px"><a style=3D"text-decoration:none;color:#707070" href=3D"http://www.a=
+tlassian.com?utm_source=3D-email&amp;utm_medium=3Demail&amp;utm_campaign=3D=
+"><img src=3D"https://commerce-cdn.prod.atl-paas.net/logos/id-summit/id-sum=
+mit-email_logo_360x80_NEW.png" height=3D"15px" alt=3D"Atlassian"></a></p></=
+div></td></tr></tbody></table></td></tr></tbody></table></div><img alt=3D""=
+ src=3D"https://use1-track.atlassian.com/CI0/0100019f53724629-4870434f-5a9d=
+-4918-918a-681f9ecd3ec6-000000/UsR8Z3wnPv3fi-3dX6FKb-YP54ol6YM3g-auXSSW3ZI=
+=3D452" style=3D"display: none; width: 1px; height: 1px;">
+
+--enmime-885fd8ee-c6e0-434a-be89-3df39964aa30--
