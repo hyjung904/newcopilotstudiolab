@@ -13,7 +13,7 @@ parent: Weekly Report Agent
 ---
 name: past-weekly-report
 description: |-
-  지난 한 주간의 Teams 미팅 및 이메일 내용을 `Work IQ Calendar`, `Work IQ Mail (Preview)`, `Work IQ Teams (Preview)` 를 통해 가져오고 해당 데이터를 바탕으로 한국어 주간업무 일지를 작성한다.
+  지난 한 주간의 Teams 미팅 및 이메일 내용을 `Work IQ Calendar`, `Work IQ Mail (Preview)`를 통해 가져오고 해당 데이터를 바탕으로 한국어 주간업무 일지를 작성한다.
     사용자가 다음과 같이 요청하면 이 Skill을 사용한다.
     - “지난주 업무 일지 작성해줘”
     - “이번 주 Teams 미팅이랑 이메일 기준으로 업무 정리해줘”
@@ -135,3 +135,5 @@ description: |-
 - 단순 수집 실패 로그는 쓰지 않는다.
 ```
 ## Tool 연결하기
+
+- `Work IQ Calendar`, `Work IQ Mail (Preview)` 두 가지의 MCP를 연결하고, 선택적으로 Tool을 선택하여 연결합니다. 
