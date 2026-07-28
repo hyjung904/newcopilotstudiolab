@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Weekly Report SKILL.md 작성
+title: Weekly Report SKILL.md 작성 (MCP)
 nav_order: 1
 parent: Weekly Report Agent
 ---
 
 # Weekly Report Agent - 주간업무 보고 에이전트 
 
-## SKILL.md 작성
+## SKILL.md 작성 (Work IQ MCP 사용)
 
 ```markdown
 ---

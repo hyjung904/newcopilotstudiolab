@@ -11,7 +11,7 @@ parent: News Letter Agent
 
 ```text
 예쁜 뉴스레터 형식의 깔끔하고 비지니스 느낌나는 이메일 본문 형식의 edm html을 만들어줘.
-각 요소는 전체제목 은 {{Title}} 뉴스 제목은 {{NewsTitle}} 식으로 플레이스 홀더를 만들어서 만들어줘.
+각 요소는 전체제목은 `{{Title}}` 뉴스 제목은 `{{NewsTitle}}` 식으로 플레이스 홀더를 만들어서 만들어줘.
 ```
 에서 시작하여 본인이 원하는 형식의 News Letter EDM HTML을 생성합니다. 
 

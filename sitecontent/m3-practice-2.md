@@ -3,6 +3,7 @@ layout: default
 title: Weekly Report SKILL.md 작성
 nav_order: 2
 parent: Weekly Report Agent
+nav_exclude: true
 ---
 
 # Weekly Report Agent - 주간업무 보고 에이전트 

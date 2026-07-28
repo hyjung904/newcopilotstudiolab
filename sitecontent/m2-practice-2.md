@@ -1,13 +1,16 @@
 ---
 layout: default
-title: 실습 2 - Skill 작성하기  
+title: 실습 2 - Skill 작성하기 (MCP)
 nav_order: 2
 parent: News Letter Agent
 ---
 
-# 실습 2 - Skill 작성하기 
+# 실습 2 - Skill 작성하기 (Work IQ MCP 사용 버전)
 
 앞선 실습에서 작성한 reference HTML 파일을 기반으로, 뉴스레터를 생성하는 SKILL.md를 작성해보겠습니다.
+
+`Work IQ Copilot MCP` 의 `copilot_chat`을 통해 뉴스를 수집합니다.
+`Work IQ Mail MCP` 의 `CreateDraftMessage`를 통해 뉴스레터 이메일의 Draft를 생성합니다. 
 
 ## SKILL.md (초안) 작성하기 
 
