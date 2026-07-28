@@ -1,11 +1,9 @@
 ---
 layout: default
-title: Weekly Report Agent
-nav_order: 20
+title: 재무분석 보고서 에이전트
+nav_order: 25
 has_children: true
 ---
-# Weekly Report Agent
+# 재무분석 보고서 에이전트
 
-Work IQ MCP 를 통해 일주일 간의 업무 데이터를 수집하고, 원하는 형식에 따라 주간보고를 작성해주는 에이전트 입니다. 
-
-![Weekly Report Agent](../image/weeklyagent-1.png)
+사용자가 업로드하는 재무제표 CSV 파일을 기반으로, Skill 을 이용해 Chart를 생성하고 해당 Chart 이미지를 포함하는 재무분석 Word 보고서를 작성해주는 에이전트 입니다.
