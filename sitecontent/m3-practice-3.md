@@ -552,6 +552,12 @@ Transcript의 고유명사, 숫자, 날짜 또는 담당자가 불명확하면 �
 
 ![Weekly Report Agent-3-2](../image/weekly-3-3.png) 
 
+### Tip
+
+커넥터의 Input 및 Output 값이 궁금하다면 아래 사이트를 참조할 수 있습니다. 
+- [Office 365 Outlook](https://learn.microsoft.com/en-us/connectors/office365/)
+- [Microsoft Teams](https://learn.microsoft.com/en-us/connectors/teams/?tabs=text1%2Cdotnet)
+
 -------------------------------
 
 ## 추가 : Teams 미팅 Transcript 미사용 버전 SKILL
