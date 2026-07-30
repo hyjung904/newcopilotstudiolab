@@ -30,3 +30,8 @@ parent: News Letter Agent
 
 [ai-newsletter-template.html 다운로드]({{ '/practice1_downloads/ai-newsletter-template.html' | relative_url }})
 
+[ai-newsletter-template-1.html 다운로드]({{ '/practice1_downloads/ai-newsletter-template-1.html' | relative_url }})
+
+### Tip
+
+`ai-newsletter-template-1.html` 파일을 사용하실 경우, SKILL.md에서 `ai-newsletter-template.html` 대신 `ai-newsletter-template-1.html`로 변경하여 사용하시면 됩니다. 
