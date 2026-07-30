@@ -4,7 +4,9 @@ title: 재무분석 보고서 에이전트 실습
 nav_order: 1
 parent: 재무분석 보고서 에이전트
 ---
-# 재무분석 보고서 에이전트 SKILL.md 작성 
+# 재무분석 보고서 에이전트 
+
+## Skill 작성
 
 ````markdown
 ---
@@ -365,7 +367,7 @@ description:
 ````
 위 Skill을 Skill > Create from blank 하여 작성합니다. 단일 Skill이므로 별도의 Reference 파일은 필요하지 않습니다. 
 
-# Agent 지침 작성 
+## Agent 지침 작성 
 
 ```markdown
 
@@ -391,7 +393,7 @@ description:
 
 ```
 
-# 실습 데이터 다운로드 
+## 실습 데이터 다운로드
 
 Agent와의 대화창에 업로드할 가상의 재무 데이터 CSV 파일을 다운로드 해주세요. Zip을 해제할 필요 없이 그대로 업로드 하시면 됩니다. 
 
@@ -420,13 +422,13 @@ A. **Tool은** Outlook, Teams, SharePoint, Dataverse와 같은 **외부 서비�
 
 쉽게 말하면 Tool은 데이터를 가져오고 저장하는 역할, Code Execution은 데이터를 분석하고 결과물을 만드는 역할입니다. 실제 업무에서는 두 기능을 함께 사용하는 경우가 가장 많습니다.
 
-# 최종 Agent 
+## 최종 Agent 
 
 ![DocxAgent-4](../image/docxagent-4.png) 
 
 -------------------------------------------
 
-# 테스트 
+## 테스트 
 
 대화창에 zip 파일을 업로드하고, 다음과 같이 요청하여 사용합니다. 
 
