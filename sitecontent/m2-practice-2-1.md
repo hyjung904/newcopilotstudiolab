@@ -98,7 +98,7 @@ Vscode 와 같은 코드 작성기가 아닌 메모장에서 Skill을 작성하�
 
 ## Skill.zip 업로드 
 
-이번에는 단일 Skill 이었던 [이메일 SKILL.md 작성]({{ '/sitecontent/m1-pratice-3' | relative_url }}) 과 달리, Skill.zip 번들을 업로드 해야합니다. 
+이번에는 단일 Skill 이었던 [이메일 SKILL.md 작성](./m1-pratice-3) 과 달리, Skill.zip 번들을 업로드 해야합니다. 
 
 Skill > Upload a skill 을 통해 아까 생성한 혹은 다운로드 받은 zip 파일을 그대로 업로드 합니다. 
 
@@ -138,4 +138,8 @@ Skill을 호출하고, 연결된 Draft an message Tool도 정확히 사용하는
 
 ![News Letter Agent-2-7](../image/email-2-1-7.png) 
 
+### Tip
+
+커넥터의 Input 및 Output 값이 궁금하다면 아래 사이트를 참조할 수 있습니다. 
+- [Office 365 Outlook](https://learn.microsoft.com/en-us/connectors/office365/)
 
