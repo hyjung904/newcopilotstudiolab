@@ -399,7 +399,7 @@ Agent와의 대화창에 업로드할 가상의 재무 데이터 CSV 파일을 �
 
 [CSV.zip 다운로드]({{ '/practice4_downloads/Company_ABC_Enhanced_Financial_Data_2022_2026.zip' | relative_url }}) 
 
-# Tool 연결 
+## Tool 연결 
 
 **해당 에이전트는 Tool 연결이 필요하지 않습니다.** 
 Modern Copilot Studio (New Experience)에서는 Tool 연결 없이도 CSV 파일을 업로드하고 분석할 수 있습니다. 데이터 분석에 필요한 주요 Python 라이브러리가 기본적으로 포함되어 있으므로, 별도의 패키지 설치(pip install) 없이 바로 사용할 수 있습니다. 
@@ -424,7 +424,7 @@ A. **Tool은** Outlook, Teams, SharePoint, Dataverse와 같은 **외부 서비�
 
 ## 최종 Agent 
 
-![DocxAgent-4](../image/docxagent-4.png) 
+![DocxAgent-4]({{ '/image/docxagent-4.png' | relative_url }}) 
 
 -------------------------------------------
 
@@ -432,6 +432,6 @@ A. **Tool은** Outlook, Teams, SharePoint, Dataverse와 같은 **외부 서비�
 
 대화창에 zip 파일을 업로드하고, 다음과 같이 요청하여 사용합니다. 
 
-![DocxAgent-5](../image/docxagent-5.png) 
+![DocxAgent-5]({{ '/image/docxagent-5.png' | relative_url }}) 
 
 위 설명처럼, 자체 라이브러리를 통해 zip을 해제하고, CSV 데이터를 읽고, 분석하고, 차트를 생성하고, DOCX 보고서를 작성합니다. 
