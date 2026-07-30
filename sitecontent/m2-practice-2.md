@@ -111,7 +111,11 @@ HTML 생성 시 반드시 다음 규칙을 준수하여 Outlook 호환성을 보
 - JSON 검증 실패(링크 누락/개수 불일치) 시 Step 1로 돌아갑니다.
 
 ```
+### Tip 
 
+Vscode 와 같은 코드 작성기가 아닌 메모장에서 Skill을 작성하는 경우, 
+ "파일 > 새 마크다운 탭" 선택 후 Skill을 작성, **"SKILL" 이라는 이름으로 저장 합니다.** 
+ 
 ## SKILL.zip 생성 및 업로드 
 
 ![News Letter Agent-2-1](../image/email-2-1-1.png)
@@ -136,7 +140,7 @@ HTML 생성 시 반드시 다음 규칙을 준수하여 Outlook 호환성을 보
 
 ## Skill.zip 업로드 
 
-이번에는 단일 Skill 이었던 [이메일 SKILL.md 작성](./sitecontent/m1-pratice-3) 과 달리, Skill.zip 번들을 업로드 해야합니다. 
+이번에는 단일 Skill 이었던 [이메일 SKILL.md 작성]({{ '/sitecontent/m1-pratice-3' | relative_url }}) 과 달리, Skill.zip 번들을 업로드 해야합니다.
 
 Skill > Upload a skill 을 통해 아까 생성한 혹은 다운로드 받은 zip 파일을 그대로 업로드 합니다. 
 
