@@ -7,7 +7,7 @@ parent: News Letter Agent
 
 # 실습 2 - Skill 작성하기 (Web Search 사용 버전)
 
-앞선 실습에서 작성한 reference HTML 파일을 기반으로, 뉴스레터를 생성하는 SKILL.md를 작성해보겠습니다.
+앞선 실습에서 작성한 reference HTML 파일을 기반으로, 뉴스레터를 생성하는 SKILL.md를 작성해보겠습니다. Tool 은 `Office 365 Outlook` 커넥터를 사용하며, Web Search 기반으로 뉴스를 수집합니다.
 
 ## Web Search 기반 SKILL.md
 
@@ -39,7 +39,6 @@ description : 뉴스 보내줘, 뉴스 만들어줘, 뉴스 초안보내줘, 뉴
   - 링크 누락이 있으면 JSON부터 재생성합니다.
 5. 최종 검증을 통과한 HTML로 `Office 365 Outlook` 커넥터의 `draft an email message`를 호출해 Draft를 생성합니다. (contentType = HTML)
   - 절대 Send Email 하지 않습니다.
-  - 무조건 생성된 draft의 webLink를 사용자에게 전달합니다.
 
 ## ✅ Outlook-safe 규칙 (매우 중요)
 
@@ -70,13 +69,73 @@ HTML 생성 시 반드시 다음 규칙을 준수하여 Outlook 호환성을 보
 - JSON 검증 실패(링크 누락/개수 불일치) 시 Step 1로 돌아갑니다.
 
 ```
-## Tool 연결하기 
+### Tip 
+
+Vscode 와 같은 코드 작성기가 아닌 메모장에서 Skill을 작성하는 경우, 
+ "파일 > 새 마크다운 탭" 선택 후 Skill을 작성, **"SKILL" 이라는 이름으로 저장 합니다.** 
 
 ## SKILL.zip 생성 및 업로드 
 
-## 테스트 
+![News Letter Agent-2-1](../image/email-2-1-1.png)
 
+해당 Skill 번들에 필요한 html 레퍼런스 파일과 SKILL.md 파일을 선택하여 Zip Compress 합니다. 여기서 다시 한 번 Skill 내부에 적힌 html 레퍼런스 파일의 이름과 실제 파일의 이름이 동일한지, SKILL 로 대문자로 파일이 저장되어 있는지 등을 확인합니다. 
 
 ## SKILL.zip 다운로드
 
-[newsletter-html-email-web.zip 다운로드]({{ '/practice1_downloads/newsletter-html-email.zip' | relative_url }})
+[newsletter-html-email-web.zip 다운로드]({{ '/practice1_downloads/news-letter-web.zip' | relative_url }})
+
+## Agent 생성 및 지침 작성 
+
+에이전트 지침은 단순하게 작성합니다. 
+
+```markdown
+당신은 뉴스레터 작성 Agent 입니다. 
+
+- 항상 별도 요청이 없으면 깔끔한 비즈니스 톤과 한국어 존댓말을 사용합니다. 
+
+- 사용자가 “뉴스레터를 작성해 줘”라고 요청하면 사용자가 제공한 주제 키워드를 바탕으로 `ai-news-edm-html` Skill을 사용합니다. 
+```
+
+## Skill.zip 업로드 
+
+이번에는 단일 Skill 이었던 [이메일 SKILL.md 작성](./sitecontent/m1-pratice-3) 과 달리, Skill.zip 번들을 업로드 해야합니다. 
+
+Skill > Upload a skill 을 통해 아까 생성한 혹은 다운로드 받은 zip 파일을 그대로 업로드 합니다. 
+
+![News Letter Agent-2-2](../image/email-2-1-2.png)
+
+업로드 시 다음과 같이 Skill이 올라가게 되고, Reference 파일도 확인할 수 있습니다. 이런 식으로 업로드한 에이전트는 Create from blank와 다르게 Copilot Studio UI 안에서는 편집이 불가능합니다. 
+
+![News Letter Agent-2-3](../image/email-2-1-3.png) 
+
+## Tool 연결 
+
+**Office 365 Outlook:** 
+- 한글명 : 이메일 메시지 초안 작성
+- 영문명 : Draft an email message 
+
+을 연결합니다. 
+
+**Knowledge:** 
+- 기본으로 enable 되어 있으나, Search all websites 로 되어 있는지 확인합니다. 해당 기능을 통해 서치하므로, 관리자가 Web Search를 막아뒀을 경우 사용할 수 없습니다. 
+
+## Agent 전체 모습 
+
+에이전트가 완성되었습니다. 
+
+![News Letter Agent-2-4](../image/email-2-1-4.png) 
+
+-------------------------------
+
+## 테스트 
+
+![News Letter Agent-2-5](../image/email-2-1-5.png) 
+![News Letter Agent-2-6](../image/email-2-1-6.png)  
+
+Skill을 호출하고, 연결된 Draft an message Tool도 정확히 사용하는 것을 볼 수 있습니다. 
+
+최종 결과물은 Outlook > 임시보관함 내에서 확인할 수 있습니다! 
+
+![News Letter Agent-2-7](../image/email-2-1-7.png) 
+
+
