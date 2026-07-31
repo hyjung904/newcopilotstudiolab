@@ -74,15 +74,19 @@ HTML 생성 시 반드시 다음 규칙을 준수하여 Outlook 호환성을 보
 Vscode 와 같은 코드 작성기가 아닌 메모장에서 Skill을 작성하는 경우, 
  "파일 > 새 마크다운 탭" 선택 후 Skill을 작성, **"SKILL" 이라는 이름으로 저장 합니다.** 
 
+<br>
+
 ## SKILL.zip 생성 및 업로드 
 
-![News Letter Agent-2-1](../image/email-2-1-1.png)
+![News Letter Agent-2-1]({{ '/image/email-2-1-1.png' | relative_url }})
 
 해당 Skill 번들에 필요한 html 레퍼런스 파일과 SKILL.md 파일을 선택하여 Zip Compress 합니다. 여기서 다시 한 번 Skill 내부에 적힌 html 레퍼런스 파일의 이름과 실제 파일의 이름이 동일한지, SKILL 로 대문자로 파일이 저장되어 있는지 등을 확인합니다. 
 
 ## SKILL.zip 다운로드
 
 [newsletter-html-email-web.zip 다운로드]({{ '/practice1_downloads/news-letter-web.zip' | relative_url }})
+
+<br>
 
 ## Agent 생성 및 지침 작성 
 
@@ -95,6 +99,7 @@ Vscode 와 같은 코드 작성기가 아닌 메모장에서 Skill을 작성하�
 
 - 사용자가 “뉴스레터를 작성해 줘”라고 요청하면 사용자가 제공한 주제 키워드를 바탕으로 `ai-news-edm-html` Skill을 사용합니다. 
 ```
+<br>
 
 ## Skill.zip 업로드 
 
@@ -102,11 +107,13 @@ Vscode 와 같은 코드 작성기가 아닌 메모장에서 Skill을 작성하�
 
 Skill > Upload a skill 을 통해 아까 생성한 혹은 다운로드 받은 zip 파일을 그대로 업로드 합니다. 
 
-![News Letter Agent-2-2](../image/email-2-1-2.png)
+![News Letter Agent-2-2]({{ '/image/email-2-1-2.png' | relative_url }})
 
 업로드 시 다음과 같이 Skill이 올라가게 되고, Reference 파일도 확인할 수 있습니다. 이런 식으로 업로드한 에이전트는 Create from blank와 다르게 Copilot Studio UI 안에서는 편집이 불가능합니다. 
 
-![News Letter Agent-2-3](../image/email-2-1-3.png) 
+![News Letter Agent-2-3]({{ '/image/email-2-1-3.png' | relative_url }}) 
+
+<br>
 
 ## Tool 연결 
 
@@ -119,24 +126,29 @@ Skill > Upload a skill 을 통해 아까 생성한 혹은 다운로드 받은 zi
 **Knowledge:** 
 - 기본으로 enable 되어 있으나, Search all websites 로 되어 있는지 확인합니다. 해당 기능을 통해 서치하므로, 관리자가 Web Search를 막아뒀을 경우 사용할 수 없습니다. 
 
+<br>
+
 ## Agent 전체 모습 
 
 에이전트가 완성되었습니다. 
 
-![News Letter Agent-2-4](../image/email-2-1-4.png) 
+![News Letter Agent-2-4]({{ '/image/email-2-1-4.png' | relative_url }}) 
 
 -------------------------------
+<br>
 
 ## 테스트 
 
-![News Letter Agent-2-5](../image/email-2-1-5.png) 
-![News Letter Agent-2-6](../image/email-2-1-6.png)  
+![News Letter Agent-2-5]({{ '/image/email-2-1-5.png' | relative_url }}) 
+![News Letter Agent-2-6]({{ '/image/email-2-1-6.png' | relative_url }})  
 
 Skill을 호출하고, 연결된 Draft an message Tool도 정확히 사용하는 것을 볼 수 있습니다. 
 
 최종 결과물은 Outlook > 임시보관함 내에서 확인할 수 있습니다! 
 
-![News Letter Agent-2-7](../image/email-2-1-7.png) 
+![News Letter Agent-2-7]({{ '/image/email-2-1-7.png' | relative_url }}) 
+
+<br>
 
 ### Tip
 
