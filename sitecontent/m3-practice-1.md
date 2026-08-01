@@ -166,6 +166,8 @@ description: |-
 ![Weekly Report Agent-1-2](../image/weekly-1-1.png) 
 ![Weekly Report Agent-1-3](../image/weekly-1-2.png) 
 
+<br>
+
 - **Work IQ Mail MCP :** SearchMessagesQueryParameters 
 
 ![Weekly Report Agent-1-4](../image/weekly-1-3.png) 

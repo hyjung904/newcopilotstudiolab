@@ -31,9 +31,9 @@ workflow의 새로운 기능인 `Classify`를 활용하여, 이메일 제목과 
 
 각 카테고리 설명에는 아래와 같이 이메일 제목과 본문 내용에 포함될 수 있는 키워드 및 예제문을 작성합니다. 
 
-**Microsoft :** Azure, Microsoft 365, Copilot, Power Platform, Microsoft Trial (예시)
+- **Microsoft :** Azure, Microsoft 365, Copilot, Power Platform, Microsoft Trial (예시)
 
-**Atlassian :** Jira, Confluence, Trello, Bitbucket, Atlassian Trial (예시)
+- **Atlassian :** Jira, Confluence, Trello, Bitbucket, Atlassian Trial (예시)
 
 ![workflow-1-4](../image/workflow-1-4.png)
 
@@ -84,10 +84,10 @@ New workflow에서는 AI Prompt (AI builder) 기능이 사라졌습니다! **해
 
 Microsoft Teams 커넥터의 Post message in a chat or channel 액션을 사용합니다. 사용자의 개인 Teams 채팅으로 Flow bot이 해당 알림을 보내도록 설정하겠습니다. 
 
-**Post as:** Flow bot  
-**Post in:** Chat with Flow bot 
-**Post message request Recipient:** 실습 대상자의 UPN 
-**Message:** [Agent.AgentResponse 동적 콘텐츠] 
+- **Post as:** Flow bot  
+- **Post in:** Chat with Flow bot 
+- **Post message request Recipient:** 실습 대상자의 UPN 
+- **Message:** [Agent.AgentResponse 동적 콘텐츠] 
 
 ![workflow-1-7](../image/workflow-1-7.png)
 

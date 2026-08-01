@@ -17,10 +17,10 @@ has_children: true
 
 <br>
 
-테스트 이메일 - Atlassian에서 발송된 결제 관련 이메일 
+테스트 이메일 - Atlassian에서 발송된 결제 관련 이메일을 스스로에게 전송합니다. 
 ![workflow-3](../image/workflow-3.png)
 
 <br>
 
-사용자의 개인 Chat으로 해당 이메일의 위험을 판단한 결과를 전송함. 
+사용자의 개인 Chat으로 해당 이메일의 위험을 판단한 결과가 전송되었습니다. 
 ![workflow-4](../image/workflow-4.png)
