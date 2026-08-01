@@ -518,7 +518,9 @@ Transcript의 고유명사, 숫자, 날짜 또는 담당자가 불명확하면 �
 ````
 위 Skill을 Create from blank 하여 past-weekly-report Skill을 에이전트 안에 생성합니다. 
 
-![Weekly Report Agent-3-1](../image/weekly-3-1.png) 
+![Weekly Report Agent-3-1]({{ '/image/weekly-3-1.png' | relative_url }})
+
+<br>
 
 ## Agent 지침 작성 
 
@@ -531,6 +533,7 @@ Transcript의 고유명사, 숫자, 날짜 또는 담당자가 불명확하면 �
 - 사용자가 주간보고 요청 시 `past-weekly-report` Skill을 사용하여 업무 진행 현황, 주요 성과, 이슈, 다음 주 계획을 명확하고 간결하게 정리해 주십시오. 
 - 사실에 근거하여 작성하고, 불필요한 추측은 하지 마십시오.
 ```
+<br>
 
 ## Tool 연결
 
@@ -544,13 +547,15 @@ Transcript의 고유명사, 숫자, 날짜 또는 담당자가 불명확하면 �
 
 을 연결합니다. 
 
-![Weekly Report Agent-3-2](../image/weekly-3-2.png)
+![Weekly Report Agent-3-2]({{ '/image/weekly-3-2.png' | relative_url }})
+
+<br>
 
 ## 최종 Agent 모습 
 
 다음과 같이 Agent 지침, past-weekly-report Skill, Tool (커넥터) 가 잘 연결이 되었다면 에이전트가 완성되었습니다! 
 
-![Weekly Report Agent-3-2](../image/weekly-3-3.png) 
+![Weekly Report Agent-3-2]({{ '/image/weekly-3-3.png' | relative_url }})
 
 ### Tip
 
