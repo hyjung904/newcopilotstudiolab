@@ -3,6 +3,7 @@ layout: default
 title: News Letter Agent
 nav_order: 10
 has_children: true
+parent: Basic
 ---
 
 # News Letter Agent 

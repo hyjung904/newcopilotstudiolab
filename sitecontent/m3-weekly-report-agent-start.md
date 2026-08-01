@@ -3,6 +3,7 @@ layout: default
 title: Weekly Report Agent
 nav_order: 20
 has_children: true
+parent: Basic
 ---
 # Weekly Report Agent
 

@@ -3,6 +3,7 @@ layout: default
 title: 재무분석 보고서 에이전트
 nav_order: 25
 has_children: true
+parent: Basic
 ---
 # 재무분석 보고서 에이전트
 

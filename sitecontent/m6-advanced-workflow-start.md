@@ -3,6 +3,7 @@ layout: default
 title: Workflow 심화
 nav_order: 40
 has_children: true 
+parent: Advanced
 ---
 
 # 실습 2 - SharePoint List 첨부파일 조회 Workflow 
