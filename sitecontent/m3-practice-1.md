@@ -135,10 +135,43 @@ description: |-
 - 업무상 영향이 있는 미확인 사항만 간단히 정리한다.
 - 단순 수집 실패 로그는 쓰지 않는다.
 ```
+<br>
+
+위 Skill을 Create from blank 하여 past-weekly-report Skill을 에이전트 안에 생성합니다. 
+
+![Weekly Report Agent-1-1](../image/weekly-1-4.png) 
+
+<br>
+
+## Agent 지침 작성 
+
+단순하게 작성해봅니다. 
+
+```markdown
+당신은 주간보고를 작성하는 에이전트입니다. 
+
+- 항상 한국어 존댓말을 사용합니다. 
+- 사용자가 주간보고 요청 시 `past-weekly-report` Skill을 사용하여 업무 진행 현황, 주요 성과, 이슈, 다음 주 계획을 명확하고 간결하게 정리해 주십시오. 
+- 사실에 근거하여 작성하고, 불필요한 추측은 하지 마십시오.
+```
+
+<br>
+
 ## Tool 연결하기
 
 `Work IQ Calendar (Preview)`, `Work IQ Mail (Preview)` 두 가지의 MCP를 연결하고, 선택적으로 Tool을 선택하여 연결합니다. 
 
-- **Work IQ Calendar MCP :** ListEvents / ListCalendarView / GetOnlineMeetingAiInsights / GetOnlineMeetingTranscripts
+- **Work IQ Calendar MCP :** ListEvents / ListCalendarView / GetOnlineMeetingAiInsights / GetOnlineMeetingTranscripts 
+
+![Weekly Report Agent-1-2](../image/weekly-1-1.png) 
+![Weekly Report Agent-1-3](../image/weekly-1-2.png) 
+
 - **Work IQ Mail MCP :** SearchMessagesQueryParameters 
 
+![Weekly Report Agent-1-4](../image/weekly-1-3.png) 
+
+<br>
+
+## 완성된 Agent 모습 
+
+![Weekly Report Agent-1-5](../image/weekly-1-5.png)
