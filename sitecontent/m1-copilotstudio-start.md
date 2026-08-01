@@ -7,6 +7,4 @@ has_children: true
 
 # 새로운 Copilot Studio
 
-## 목표
-
-- 준비 중... 
+강사의 이론 pptx 를 기반으로 진행합니다. 

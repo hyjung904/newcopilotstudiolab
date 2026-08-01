@@ -424,7 +424,7 @@ A. **Tool은** Outlook, Teams, SharePoint, Dataverse와 같은 **외부 서비�
 
 ## 최종 Agent 
 
-![DocxAgent-4]({{ '/image/docxagent-4.png' | relative_url }}) 
+![DocxAgent-4](../image/docxagent-4.png) 
 
 -------------------------------------------
 
@@ -432,6 +432,6 @@ A. **Tool은** Outlook, Teams, SharePoint, Dataverse와 같은 **외부 서비�
 
 대화창에 zip 파일을 업로드하고, 다음과 같이 요청하여 사용합니다. 
 
-![DocxAgent-5]({{ '/image/docxagent-5.png' | relative_url }}) 
+![DocxAgent-5](../image/docxagent-5.png) 
 
 위 설명처럼, 자체 라이브러리를 통해 zip을 해제하고, CSV 데이터를 읽고, 분석하고, 차트를 생성하고, DOCX 보고서를 작성합니다. 
