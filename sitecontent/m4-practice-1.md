@@ -367,6 +367,8 @@ description:
 ````
 위 Skill을 Skill > Create from blank 하여 작성합니다. 단일 Skill이므로 별도의 Reference 파일은 필요하지 않습니다. 
 
+<br>
+
 ## Agent 지침 작성 
 
 ```markdown
@@ -392,12 +394,15 @@ description:
 * 전문적이고 객관적인 비즈니스 보고서 형식으로 작성합니다.
 
 ```
+<br>
 
 ## 실습 데이터 다운로드
 
 Agent와의 대화창에 업로드할 가상의 재무 데이터 CSV 파일을 다운로드 해주세요. Zip을 해제할 필요 없이 그대로 업로드 하시면 됩니다. 
 
 [CSV.zip 다운로드]({{ '/practice4_downloads/Company_ABC_Enhanced_Financial_Data_2022_2026.zip' | relative_url }}) 
+
+<br>
 
 ## Tool 연결 
 
@@ -409,8 +414,8 @@ Modern Copilot Studio (New Experience)에서는 Tool 연결 없이도 CSV 파일
 - **zipfile :** Python 표준 라이브러리로 ZIP 파일의 압축 해제 및 압축 생성 기능을 제공합니다. 업로드된 ZIP 파일에서 CSV 데이터를 추출하는 데 사용되었습니다.
 - **pandas :** 표 형식 데이터를 처리하기 위한 대표적인 데이터 분석 라이브러리입니다. CSV 파일을 읽고, 여러 데이터를 병합하며, 집계(GroupBy), KPI 계산 및 데이터 전처리에 사용되었습니다.
 - **numpy :** 수치 계산 라이브러리로 배열 연산과 차트 생성 시 필요한 위치 계산 및 수학 연산에 활용되었습니다.
-- **matplotlib :** 데이터 시각화를 위한 라이브러리입니다. Line Chart, Bar Chart 등 다양한 형태의 차트를 생성하여 PNG 이미지로 저장하는 데 사용되었습니다. 서버 환경에서는 GUI가 없는 환경에서도 이미지를 생성할 수 있도록 Agg Backend를 사용합니다.
-- **python-docx :** Microsoft Word(.docx) 문서를 생성하는 라이브러리입니다. 제목, 표, 문단, 이미지, 차트 등을 삽입하여 전문적인 보고서를 자동으로 생성하는 데 사용되었습니다.
+- **matplotlib :** 데이터 시각화를 위한 라이브러리입니다. Line Chart, Bar Chart 등 다양한 형태의 차트를 생성하여 PNG 이미지로 저장하는 데 사용되었습니다.
+- **python-docx :** Microsoft Word(.docx) 문서를 생성하는 라이브러리입니다. 제목, 표, 문단, 이미지, 차트 등을 삽입하여 보고서를 자동으로 생성하는 데 사용되었습니다.
 
 이러한 방식은 Modern Copilot Studio의 Agent Sandbox를 활용하는 대표적인 시나리오입니다. Agent는 격리된 Linux/Python Sandbox에서 코드를 실행하여 데이터 분석, 계산, 파싱, 차트 생성 및 문서 생성을 수행합니다. 
 
@@ -421,6 +426,8 @@ A. **Tool은** Outlook, Teams, SharePoint, Dataverse와 같은 **외부 서비�
 반면 **Code Execution(Agent Sandbox)** 은 가져온 데이터나 사용자가 업로드한 파일을 처리하는 기능입니다. 예를 들어 데이터 분석, 계산, 파일 변환, 차트 생성, 보고서(DOCX) 생성과 같은 작업을 수행합니다.
 
 쉽게 말하면 Tool은 데이터를 가져오고 저장하는 역할, Code Execution은 데이터를 분석하고 결과물을 만드는 역할입니다. 실제 업무에서는 두 기능을 함께 사용하는 경우가 가장 많습니다.
+
+<br>
 
 ## 최종 Agent 
 

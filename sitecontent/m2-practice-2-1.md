@@ -132,21 +132,21 @@ Skill > Upload a skill 을 통해 아까 생성한 혹은 다운로드 받은 zi
 
 에이전트가 완성되었습니다. 
 
-![News Letter Agent-2-4]({{ '/image/email-2-1-4.png' | relative_url }}) 
+![News Letter Agent-2-4](../image/email-2-1-4.png) 
 
 -------------------------------
 <br>
 
 ## 테스트 
 
-![News Letter Agent-2-5]({{ '/image/email-2-1-5.png' | relative_url }}) 
-![News Letter Agent-2-6]({{ '/image/email-2-1-6.png' | relative_url }})  
+![News Letter Agent-2-5](../image/email-2-1-5.png) 
+![News Letter Agent-2-6](../image/email-2-1-6.png)  
 
 Skill을 호출하고, 연결된 Draft an message Tool도 정확히 사용하는 것을 볼 수 있습니다. 
 
 최종 결과물은 Outlook > 임시보관함 내에서 확인할 수 있습니다! 
 
-![News Letter Agent-2-7]({{ '/image/email-2-1-7.png' | relative_url }}) 
+![News Letter Agent-2-7](../image/email-2-1-7.png) 
 
 <br>
 

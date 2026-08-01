@@ -126,6 +126,8 @@ Vscode 와 같은 코드 작성기가 아닌 메모장에서 Skill을 작성하�
 
 [newsletter-html-email.zip 다운로드]({{ '/practice1_downloads/newsletter-html-email.zip' | relative_url }})
 
+<br>
+
 ## Agent 생성 및 지침 작성 
 
 에이전트 지침은 단순하게 작성합니다. 
@@ -137,6 +139,8 @@ Vscode 와 같은 코드 작성기가 아닌 메모장에서 Skill을 작성하�
 
 - 사용자가 “뉴스레터를 작성해 줘”라고 요청하면 사용자가 제공한 주제 키워드를 바탕으로 `ai-news-edm-html` Skill을 사용합니다. 
 ```
+
+<br>
 
 ## Skill.zip 업로드 
 
@@ -150,6 +154,8 @@ Skill > Upload a skill 을 통해 아까 생성한 혹은 다운로드 받은 zi
 
 ![News Letter Agent-2-3](../image/email-2-1.png) 
 
+<br>
+
 ## Tool 연결 
 
 **Work IQ Copilot MCP :** 단일 Tool을 가진 MCP로, `copilot_chat`만 사용합니다. 
@@ -158,6 +164,8 @@ Skill > Upload a skill 을 통해 아까 생성한 혹은 다운로드 받은 zi
 ![News Letter Agent-2-4](../image/email-2-2.png) 
 
 위 토글 (전체 선택)을 해제하고, `CreateDraftMessage`만 선택합니다. 
+
+<br>
 
 ## Agent 전체 모습  
 
